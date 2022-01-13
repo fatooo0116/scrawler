@@ -35,6 +35,8 @@ for d in web:
     price  = soup.find_all('span',class_="price") #找價格
 
 
+
+
  
     total  = soup.find('span', class_="totalTxt") #找價格
     total2 = total.find_next_siblings("span")
@@ -43,7 +45,7 @@ for d in web:
 
 
 
-    ### page = soup.find_all(attrs={'pageidx': True})
+    ### page = soup.find_all(attrs={'pageidx': True})1
     ## print(len(page))
     ### for i in page:
     ###    print(i["pageidx"])
